@@ -23,6 +23,13 @@
 .body {
   margin: 0 auto;
 }
+figure {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+} 
 .section-header {
   background: var(--white);
   border-bottom: 1px solid var(--almost-white);
@@ -76,7 +83,11 @@
   gap: 10px;
   /* justify-content: center; */
 /* margin: 32px; */
-
+ul,
+li{
+  margin: 0 auto;
+  padding: 0;
+}
 .containerc {
   display: flex;
   justify-items: flex-end;
