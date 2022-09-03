@@ -588,27 +588,31 @@ img {
   background-color: var(---blue);
   color: var(--white);
 }
-.container-gallery{
-  margin: 0 auto;
-  width:1200px;
-  padding-bottom: 94px;
-  display: flex;
 
-} 
 /* .portfolio-fig > .element {
   display: flex;
 
 } */
-.portfolio-fig-element2{
+.portfolio-fig {
   display: flex;
-  flex-wrap: wrap;
-
-
+  flex-direction: column;
+  flex-basis: 370px;
 }
-.figcaption{
-  display:flex;
-    
+/* .portfolio-fig > .element{
+  border: 10px solid red;
+} */
+.description-por,
+.header-por {
+  display: flex;
 }
+.container-gallery {
+  margin: 0 auto;
+  width: 1200px;
+  padding-bottom: 94px;
+  display: flex;
+  flex-direction: column;
+}
+
 .container--footer {
   width: 1200px;
   margin: 0 auto;
