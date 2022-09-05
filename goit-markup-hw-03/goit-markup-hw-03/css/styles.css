@@ -581,9 +581,10 @@ img {
 }
 /* gap: 8px; */
 
-/* .container--button-por >.button-por{
+.container--button-por{
   display: flex;
   align-items: center; 
+  flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
   
@@ -622,16 +623,23 @@ img {
   display: flex;
   flex-direction: column;
 }
+.container{
+  width: 1200px;
 
+}
 .container--footer {
   width: 1200px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  display: block;
+  justify-content: flex-start;
 
 }
 .logo--footer {
-  display: block;
+
   padding: 60px 0 20px 0;
   width: 145px;
-  /* height: 100%; */
+  margin: 0 auto;
+  justify-content: flex-start;
+
 }
