@@ -31,6 +31,8 @@ figure {
 .section-header {
   background: var(--white);
   border-bottom: 1px solid var(--almost-white);
+  display: flex;
+  justify-content: center;
 }
 .container--efective {
   width: 1200px;
@@ -59,17 +61,18 @@ figure {
   display: flex;
   align-items: center;
 }
-.containerl {
+.nav__container {
   display: flex;
-  box-sizing: border-box;
   align-items: center;
   height: 80px;
-
-  /* width: 1200px; */
-  /* margin: 0px; */
-  /* justify-content: space-between; */
-  /* margin: auto;
-  height: 100%; */
+  width: 100%;
+  max-width: 1200px;
+  
+}
+.nav__container--left{
+  display: flex;
+  align-items: center;
+  
 }
 
 /* .navigation{
