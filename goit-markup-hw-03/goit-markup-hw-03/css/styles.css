@@ -285,7 +285,6 @@ img {
 .button-por,
 .ourteam,
 .work {
-  box-sizing: border-box;
   display: flex;
   list-style: none;
   /* width: 1200px; */
