@@ -373,7 +373,7 @@ img {
   color: var(--blue);
 }
 /* czesc - "EFETYWNE ROZWIAZANIA..*/
-.container1 {
+.slider {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
