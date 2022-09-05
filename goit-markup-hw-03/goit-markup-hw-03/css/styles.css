@@ -92,7 +92,6 @@ li{
   display: flex;
   justify-items: flex-end;
 }
-
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background: var(--light);
@@ -627,6 +626,8 @@ img {
 .container--footer {
   width: 1200px;
   margin: 0 auto;
+  display: block;
+
 }
 .logo--footer {
   display: block;
