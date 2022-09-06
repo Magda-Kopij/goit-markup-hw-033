@@ -11,36 +11,35 @@
     <link href="./css/styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-    <section class="section-header">
-        <div class="container">
-        <div class="containerl">
-          <span class="logo">
-            <a class="logo-web" href="./index.html">Web</a><a class="logo-studio" href="./index.html">Studio</a></span>
-          <nav>
-            <ul class="navigation">
-              <li class="navigation-text1">
-                <a class="navigation-link" href="./index.html">Agencja</a><br>
-              </li>
-              <li class="navigation-text2">
-                <a class="navigation-link portfolio" href="./portfolio.html">Portfolio</a><br>
-              </li>
-              <li class="navigation-text3">
-                <a class="navigation-link" href="./index.html">Kontakt</a><br>
-              </li>
-            </ul>
-          </nav>
-          <a class="mail-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a class="telephone-header" href="tel:+48111111111">+48 111 111 111</a>
+   <header class="section-header">
+        <div class="nav__container">
+          <div class="nav__container--left">
+            <a class="logo">
+              <span class="logo-web" href="./index.html">Web</span><span class="logo-studio" href="./index.html">Studio</span></a>
+            <nav>
+              <ul class="navigation">
+                <li class="navigation-text1">
+                  <a class="navigation-link" href="./index.html">Agencja</a>
+                </li>              
+                <li class="navigation-text2">
+                  <a class="navigation-link portfolio" href="./portfolio.html">Portfolio</a><br>
+                </li>
+                <li class="navigation-text3">
+                  <a class="navigation-link" href="./index.html">Kontakt</a><br>
+                </li>
+              </ul>
+            </nav>
           </div>
+          <div>
+            <a class="mail-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="telephone-header" href="tel:+48111111111">+48 111 111 111</a>
           </div>
-          </section>
-        </header>
-
+        </div>
+      </header>
     
 
     <main>
-        <section class="section--button-por">
+      <section class="section--button-por">
           <div class="container--button-por">
             <ul class="button-por">
                 <li><button class="button--menu" type="button">Wszystkie</button></li>
@@ -50,8 +49,9 @@
                 <li><button class="button--menu" type="button">Marketing</button></li>
             </ul>
           </div>
+        </section>
         
-        
+        <section  class="gallery-section">
           <div class="container-gallery">
             <ul class="portfolio-fig">
               <li class="card">
@@ -188,29 +188,25 @@
             </li>
            </ul> 
         </div>
-</section>
-
+    </section>
     </main>
-    <footer>
-      <section>
+
+    <footer class="footer-section">
       <div class="container--footer">
-       <span class="logo--footer">
-      <a class="logo-web" href="./index.html">Web</a><a class="logo-studio-footer" href="./index.html">Studio</a></span>
-      <address>
-        <ul class="address">
-          <li class="address-text street">m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li class="address-text">
-            <a class="address-linkf" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="address-text">
-          <a class="address-linkf" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      
-      </address>
+            <span class="logo--footer">
+            <a class="logo-web" href="./index.html">Web</a><a class="logo-studio-footer" href="./index.html">Studio</a></span>
+          <address>
+            <ul class="address">
+              <li class="address-text street">m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li class="address-text">
+                <a class="address-linkf" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="address-text">
+                <a class="address-linkf" href="tel:+48111111111">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
       </div>
-      </section>
     </footer>
-  </div>
-</body>
+  </body>
 </html>

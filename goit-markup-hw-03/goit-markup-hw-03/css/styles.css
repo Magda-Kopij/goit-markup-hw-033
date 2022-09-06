@@ -10,6 +10,7 @@
   --light: #e5e5e5;
   --creamy: #f5f4fa;
   --almost-white: #ececec;
+  --white-light: #EEEEEE;
 
   --light-grey: #757575;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -29,6 +30,7 @@ figure {
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  
 } 
 .section-header {
   background: var(--white);
@@ -36,15 +38,16 @@ figure {
   display: flex;
   justify-content: center;
 }
-.container--efective {
-  width: 1200px;
-  margin: 0 auto;
-  /* padding: 200px 0 200px 0; */
+
+figcaption{
+  padding: 20px 24px 20px 24px;
+  border: 1px solid var(--white-light);
+  border-top: 0;
 }
 
 .container-nav {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0  ;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,7 +92,7 @@ figure {
 /* margin: 32px; */
 ul,
 li{
-  margin: 0 auto;
+  margin: 0  ;
   padding: 0;
 }
 .containerc {
@@ -136,10 +139,6 @@ img {
 
   padding: 24px 0px 25px 0px;
   margin-right: 93px;
-  /* margin: 0px 93px 0px 0x; */
-  /* margin-right: 93px; */
-
-  /* margin-left: 215 px;  */
 }
 .logo-web {
   color: var(--blue);
@@ -149,15 +148,9 @@ img {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03;
-  /* display: flex;
-  align-items:center; */
-  /* margin: 24px;  */
+
 }
-/* .navigation-link{
-  display: flex;
-  align-items: center;
-  padding: 32px 23px 32px 0px;
-} */
+
 .logo > .logo-studio {
   display: flex;
   align-items: center;
@@ -192,22 +185,14 @@ img {
   align-items: center;
 
   height: 16px;
-  width: auto;
+  width:  ;
 
   padding: 32px 0 32px 0;
 
-  /* display: block; */
 }
-/* .navigation .navigation-text{
-  box-sizing: border-box;
-  display: block;
-  display: flex;
-  align-items: center;
 
-} */
-/* .navigation-linkagen{
-  margin: 0px 0px 0px 93px;
-} */
+
+
 
 .navigation-text1 {
   display: flex;
@@ -277,18 +262,25 @@ img {
   list-style: none;
   display: block;
 }
-.section--what-we-do {
+.section--lorem {
   background: var(--white);
+  display: flex;
+  justify-content: center;
+  
+}
+.section--what-we-do{
+  background: var(--white);
+  display: flex;
+  justify-content: center;
 }
 .portfolio-fig .address,
 .navigation,
 .button-por,
 .ourteam,
 .work {
-  display: flex;
   list-style: none;
-  /* width: 1200px; */
 }
+
 .work {
   display: flex;
   justify-items: flex-start;
@@ -297,12 +289,13 @@ img {
   padding: 0 0 94px 0;
 }
 .portfolio-fig {
+  gap: 30px;
   width: 1200px;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
 }
-.element {
+.portoflio-fig {
   flex-basis: calc(100% / 3);
 }
 .lorem {
@@ -310,12 +303,12 @@ img {
   margin: 0 30px 0 0;
 }
 
-.textmain {
+.container__textmain {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0;
+  display: flex;
+  display: block;
   padding: 94px 0 94px 0;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   align-content: space-between;
 }
 
@@ -335,19 +328,19 @@ img {
 .lorem {
   flex-basis: calc(100% / 4);
 }
-
-/* .button-por {
+.container__what-we-do{
+  width: 1200px;
   display: flex;
-  justify-content: center;
-} */
-/* git */
+  display: block;
+}
+
 .address-linkf {
   color: var(--beige);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03;
 }
-/* git */
+
 .street {
   color: var(--white);
   line-height: 1.71;
@@ -374,16 +367,19 @@ img {
 }
 /* czesc - "EFETYWNE ROZWIAZANIA..*/
 .slider {
-  box-sizing: border-box;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-grey);
   padding: 200px 0;
+  
 }
 .efective-background {
   background: var(--dark-grey);
+  display: flex;
+  justify-content: center;
+
 }
 .solution-header {
   display: flex;
@@ -399,7 +395,7 @@ img {
   height: 120px;
   width: 696px;
   /* padding-bottom: 30px; */
-  margin: 0 auto;
+  /* margin: 0  ; */
   margin-bottom: 30px;
   justify-content: center;
   /* align-items: center; */
@@ -416,8 +412,6 @@ img {
   text-transform: none;
 
   border-style: none;
-  /* align-items: center; */
-  /* justify-content: center; */
   cursor: pointer;
   letter-spacing: 0.06em;
   line-height: 1.88;
@@ -434,7 +428,7 @@ img {
   white-space: nowrap;
   text-overflow: ellipsis;
   border: 0px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .mail-header,
@@ -493,16 +487,15 @@ img {
 }
 .container--our-team {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   padding: 94px 0 94px 0;
 }
 .section--ourteam {
   background: var(--creamy);
+  display: flex;
+  justify-content: center;
 }
-/* .figcaption{
-  height: 108px;
 
-} */
 .ourteam {
   display: flex;
   justify-content: space-between;
@@ -517,11 +510,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 30px 0 10px 0;
+  background: var(--white);
 }
 .ourteam > .ourteam-people {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background: var(--white);
 }
 .ourteam-description {
   font-weight: 400;
@@ -549,21 +544,29 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+
 .section--button-por {
   background: var(--white);
-}
+  display: flex;
+  justify-content: center;
+} 
+
 .container--button-por {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 50px;
   padding-top: 94px;
   display: flex;
+  align-items: center; 
+  justify-content: center;
 }
 
 .button-por {
+  display: flex;
   justify-content: center;
   gap: 8px;
-}
+} 
+
 .button--menu {
   color: var(--black);
   background-color: var(--creamy);
@@ -581,16 +584,8 @@ img {
   border: 0px;
   border-radius: 4px;
 }
-/* gap: 8px; */
 
-.container--button-por{
-  display: flex;
-  align-items: center; 
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-  
-} 
+
 
 .button--menu:hover {
   background-color: var(--blue);
@@ -602,33 +597,30 @@ img {
   color: var(--white);
 }
 
-/* .portfolio-fig > .element {
-  display: flex;
 
-} */
-
-/* .portfolio-fig > .element{
-  border: 10px solid red;
-} */
 .description-por,
 .header-por {
   display: flex;
 }
-.container-gallery {
+
+.gallery-section{
+  background: var(--white);
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
- 
 }
-.container{
-  width: 1200px;
 
+.container-gallery {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 94px; 
 }
+
 .container--footer {
   width: 1200px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0  ;
   
   
 
@@ -637,7 +629,12 @@ img {
 
   padding: 60px 0 20px 0;
   width: 145px;
-  margin: 0 auto;
+  margin: 0  ;
   justify-content: flex-start;
 
+}
+.footer-section{
+  background: var(--dark-grey);
+  display: flex;
+  justify-content: center;
 }
